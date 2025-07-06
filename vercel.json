@@ -1,7 +1,4 @@
 {
-  "projects": {
-    "assignment-1": {
-      "rootDirectory": "assignment-1"
-    }
-  }
+
+       "rootDirectory": "assignment-1"
 }
