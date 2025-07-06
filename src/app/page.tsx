@@ -1092,7 +1092,7 @@ export default function Home() {
               <div className="flex items-center justify-center gap-3 mb-2">
                 <span className="text-3xl">{searchTerm === "All" ? getCategoryEmoji("All") : getTopicEmoji(searchTerm)}</span>
                 <p className="text-xl text-gray-300">
-                  Discovered {results.length} quotes for &qout;{searchTerm}&qout;
+                  Discovered {results.length} quotes for "{searchTerm}";
                 </p>
               </div>
             </div>
@@ -1107,10 +1107,10 @@ export default function Home() {
                   <div className="col-span-3 text-center py-12">
                     <div className="text-6xl mb-4">🔍</div>
                     <h3 className="text-2xl font-semibold text-gray-200 mb-4">
-                      No quotes found for &qout;{searchTerm}&qout;
+                      No quotes found for "{searchTerm}"
                     </h3>
                     <p className="text-gray-300 mb-6 max-w-md mx-auto">
-                      Try searching for different keywords like &qout;success&qout;, &qout;motivation&qout;, &qout;dreams&qout;, or browse our categories below.
+                      Try searching for different keywords like "success", "motivation", "dreams", or browse our categories below.
                     </p>
                     <div className="flex flex-wrap justify-center gap-2 mb-6">
                       {[
@@ -1165,7 +1165,7 @@ export default function Home() {
                         </div>
                         
                         {/* Quote Text */}
-                        <p className="text-lg mb-6 text-gray-200 leading-relaxed italic">&qout;{quote.text}&qout;</p>
+                        <p className="text-lg mb-6 text-gray-200 leading-relaxed italic">"{quote.text}"</p>
                         
                         {/* Author */}
                         <div className="flex items-center justify-between">
