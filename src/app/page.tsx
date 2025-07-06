@@ -1226,7 +1226,7 @@ export default function Home() {
               <Card key={index} className={`bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg border-gray-700 hover-lift card-glow ${isAnimated(`testimonial-${index}`) ? 'animate-float-in' : 'opacity-0 translate-y-8'}`} style={{ animationDelay: `${index * 500}ms` }} data-animate-id={`testimonial-${index}`}>
                 <CardContent className="p-6">
                   <div className="text-3xl mb-4">{testimonial.avatar}</div>
-                  <p className="text-gray-300 mb-4 italic">&qout;{testimonial.content}&qout;</p>
+                  <p className="text-gray-300 mb-4 italic">"{testimonial.content}"</p>
                   <div>
                     <div className="font-semibold text-emerald-400">{testimonial.name}</div>
                     <div className="text-sm text-gray-400">{testimonial.role}</div>
