@@ -1092,7 +1092,7 @@ export default function Home() {
               <div className="flex items-center justify-center gap-3 mb-2">
                 <span className="text-3xl">{searchTerm === "All" ? getCategoryEmoji("All") : getTopicEmoji(searchTerm)}</span>
                 <p className="text-xl text-gray-300">
-                  Discovered {results.length} quotes for "{searchTerm}";
+                  Discovered {results.length} quotes for &quot;{searchTerm}&quot;
                 </p>
               </div>
             </div>
@@ -1107,10 +1107,10 @@ export default function Home() {
                   <div className="col-span-3 text-center py-12">
                     <div className="text-6xl mb-4">🔍</div>
                     <h3 className="text-2xl font-semibold text-gray-200 mb-4">
-                      No quotes found for "{searchTerm}"
+                      No quotes found for &quot;{searchTerm}&quot;
                     </h3>
                     <p className="text-gray-300 mb-6 max-w-md mx-auto">
-                      Try searching for different keywords like "success", "motivation", "dreams", or browse our categories below.
+                      Try searching for different keywords like &quot;success&quot;, &quot;motivation&quot;, &quot;dreams&quot;, or browse our categories below.
                     </p>
                     <div className="flex flex-wrap justify-center gap-2 mb-6">
                       {[
@@ -1165,7 +1165,7 @@ export default function Home() {
                         </div>
                         
                         {/* Quote Text */}
-                        <p className="text-lg mb-6 text-gray-200 leading-relaxed italic">"{quote.text}"</p>
+                        <p className="text-lg mb-6 text-gray-200 leading-relaxed italic">&quot;{quote.text}&quot;</p>
                         
                         {/* Author */}
                         <div className="flex items-center justify-between">
@@ -1226,7 +1226,7 @@ export default function Home() {
               <Card key={index} className={`bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg border-gray-700 hover-lift card-glow ${isAnimated(`testimonial-${index}`) ? 'animate-float-in' : 'opacity-0 translate-y-8'}`} style={{ animationDelay: `${index * 500}ms` }} data-animate-id={`testimonial-${index}`}>
                 <CardContent className="p-6">
                   <div className="text-3xl mb-4">{testimonial.avatar}</div>
-                  <p className="text-gray-300 mb-4 italic">"{testimonial.content}"</p>
+                  <p className="text-gray-300 mb-4 italic">&quot;{testimonial.content}&quot;</p>
                   <div>
                     <div className="font-semibold text-emerald-400">{testimonial.name}</div>
                     <div className="text-sm text-gray-400">{testimonial.role}</div>
