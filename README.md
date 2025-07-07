@@ -49,5 +49,5 @@ To run this app locally:
 `npm run dev`
 
 → Open your browser and visit:
-http://localhost:3000
+[http://localhost:3000](http://localhost:3000)
 
