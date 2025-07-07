@@ -1,10 +1,12 @@
 **Quote Generator Web App**
+
 This is a motivational quote generator built using Next.js App Router. The user can enter a topic like "success", "life", or "growth", and the app displays 3 relevant quotes with a beautiful and responsive design.
 
 Live Website: https://nexium-umer-rahman-assign1.vercel.app
 
 
 **What the Project Does:**
+
 The application allows users to:
 → Enter a topic in a search field, or just select category from explore category section.
 → Instantly get 3 inspirational quotes based on that topic.
@@ -14,6 +16,7 @@ The application allows users to:
 
 
 **Technologies and Tools Used:**
+
 → **Next.js (App Router)** – Used for server/client component separation and routing.
 → **React** – For rendering interactive user interface.
 → **Tailwind CSS** – For responsive layout and fast styling.
