@@ -5,6 +5,8 @@ This is a motivational quote generator built using Next.js App Router. The user 
 Live Website: https://nexium-umer-rahman-assign1.vercel.app
 
 
+
+
 **What the Project Does:**
 
 The application allows users to:
@@ -15,6 +17,8 @@ The application allows users to:
 → Use the app on any device with smooth UI and animations.
 
 
+
+
 **Technologies and Tools Used:**
 
 → **Next.js (App Router)** – Used for server/client component separation and routing.
@@ -22,6 +26,8 @@ The application allows users to:
 → **Tailwind CSS** – For responsive layout and fast styling.
 → **ShadCN UI** – For accessible and styled form components.
 → **TypeScript** – For better development experience and type safety.
+
+
 
 
 **How to Run the Project:**
